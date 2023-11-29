@@ -20,10 +20,10 @@ switch (name) {
 
 let userName = prompt("Введите ваше имя");
 
-if ( userName == Denis ) {
+if ( userName == 'Denis' ) {
     alert( 'Добрый день, учитель' );
 }
-else if ( userName == Alisa || userName == Ivan || userName == Anastasia || userName == Andrew ) {
+else if ( userName == 'Alisa' || userName == 'Ivan' || userName == 'Anastasia' || userName == 'Andrew' ) {
     alert( 'Привет, одногрупник' );
 }
 else {
